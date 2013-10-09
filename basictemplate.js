@@ -313,6 +313,8 @@ BasicTemplate = (function () {
 
         if (!this.tokens) {
             this.tokens = new Tokenizer(this.templateString).buildTokens();
+        } else {
+            this.tokens = this.tokens.slice(0);
         }
 
         return this.compileTokens(this.tokens, context);
