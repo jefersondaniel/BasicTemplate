@@ -11,6 +11,10 @@ Very small, easy-to-use and fast Javascript Template Engine. BasicTemplate.js is
     Loop Structure
     CrossBrowser (IE 7+)
 
+## Benchmark
+
+You can compare BasicTemplate performance on: http://jsperf.com/dom-vs-innerhtml-based-templating/835
+
 ## Usage
 BasicTemplate.js syntax is similar both mustache syntax as the BASIC language syntax. The engine works with the following self-descriptive tags: {{value}}, {{if value}}{{else}}{{endif}} {{for value in values}} {{endfor}}
 
